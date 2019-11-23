@@ -91,9 +91,3 @@ npm install --save node-fetch
 
 Doing this [will erase the content of your src folder](https://gist.github.com/branneman/8048520#gistcomment-3009096)!! Even though we already have the preinstall hook. That's why we rely on the `install-wrapper.js` to run `preinstall` and `postinstall` hooks when we install/uninstall dependencies.
 
-## TODO
-
-- [ ] Add tests examples
-- [ ] Add Swagger
-- [ ] Add [celebrate](https://github.com/arb/celebrate)
-- [ ] Add PostgreSQL example
