@@ -8,6 +8,5 @@ The steps are:
 5. take the first title of the list of the paper;
 6. search the paper in Scopus;
 7. Find the papers that are the same keywords;
-8. Find the authors in the finding papers until there is different authors in the reference;
-9. If there is no different authors in the papers then go to the xml file and cancel the title of the list;
-10. Return to point 4
+8. If there is no different papers that have the same keywords then go to the xml file and cancel the title of the list;
+9. Return to point 4
