@@ -1,16 +1,27 @@
 {
-  "name": "find_similar_papers",
+  "name": "find-similar-papers",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Find similar papers given a set of papers",
+  "main": "app.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrentoCrowdAI/find-similar-papers.git"
+  },
+  "keywords": [
+    "find",
+    "similar",
+    "papers"
+  ],
+  "author": "Maurizio Franchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TrentoCrowdAI/find-similar-papers/issues"
+  },
+  "homepage": "https://github.com/TrentoCrowdAI/find-similar-papers#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
   }
 }
